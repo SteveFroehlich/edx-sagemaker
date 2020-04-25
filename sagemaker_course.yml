@@ -1,0 +1,66 @@
+- banner:
+  - headline: "AWS Sagamaker"
+  - description: "Learn AI with AWS"
+
+- material:
+  - title: "Week 1"
+  - markdownfile: "/Users/rise/mac_files/edu/edx/amazon_sagemaker/sage_course/tools_and_env.md"
+
+- tests:
+  - title: "MARKDOWN"
+  - text: "Prepare for markdown from file"
+
+
+- material:
+  - title: "Code content"
+  - text: "Lets write out the code to go to the moon below."
+  - code: |
+      Rocket rocket = new Rocket()
+      rocket.setDestination("moon")
+      rocket.launch()
+
+  - plantuml: "diagram.uml"
+  - plantuml: "/Users/rise/mac_files/repos/simple-binary-encoding-repos/my-examples/course/sbe_flow.uml"
+
+  - text: "Set our coordinates aliased by the string 'moon'"
+  - paragraph_title: "Execute tests first"
+
+  - code: |
+      cd /the/directory/that/has/rocket-repo
+      mvn test -Dtest=RocketSuite
+
+
+- tests:
+  - Question:
+      # the below should be translated into the format that
+      # the flask app will use to read it, in random order
+      # as the flask app should assign order and ids
+      header: "builder pattern"
+      content: "how does the building pattern apply to large constructors?"
+      choices:
+        "it makes large constructors managable by abstracting away the direct calls to the contructor": true
+        "some thing that sounds plausible": false
+        "some other thing that sounds plausible": false
+
+  - Question:
+      header: "Which of the following commands is used to"
+      content: "List all consumer groups, describe a consumer group, delete consumer group info, or reset consumer group"
+      choices:
+        "kafka-console-consumer.sh": false
+        "kafka-console-producer.sh": false
+        "kafka-consumer-groups.sh": true
+        "kafka-configs.sh": false
+
+  - Question:
+      header: "Which of the following commands is used to"
+      content: "Reads data from Kafka and outputs it to standard output"
+      choices:
+        "kafka-console-consumer.sh": true
+        "kafka-console-producer.sh": false
+        "kafka-consumer-groups.sh": false
+        "kafka-configs.sh": false
+
+
+- material:
+  - title: "lesson two Mars"
+  - text: "explain some stuff about Mars"
